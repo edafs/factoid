@@ -21,7 +21,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = "from postMessage()";
+  botResponse = getFactoid();
 
   options = {
     hostname: 'api.groupme.com',
@@ -53,5 +53,42 @@ function postMessage() {
   botReq.end(JSON.stringify(body));
 }
 
+function getFactoid() {
+
+	var response; // string to hold.
+	var in_file = new File("factoids.txt");
+
+	// Get line count
+	var count = 0;
+	in_file.open("r");
+	while(!in_file.eof) {
+		in_file.readln();
+		count++;
+	}
+	in_file.close();
+
+	// Get a random line number:
+	var d = new Date();
+	var n = d.getTime();
+	var seed = n % count;
+
+	// Gets a random string from text file:
+	in_file.open("r");
+	var temp = 0;
+	while(!in_file.eof){
+		
+		if(temp==count){
+			response = in_file.readln();
+		} else{
+			in_file.readln();
+		}
+
+		temp++;
+	}
+
+	in_file.close;
+	return response;
+
+}
 
 exports.respond = respond;
