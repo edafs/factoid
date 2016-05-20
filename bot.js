@@ -55,7 +55,7 @@ function postMessage() {
 
 function getFactoid() {
 
-	var response; // string to hold.
+	var response = "test string"; // string to hold.
 	var in_file = new File("factoids.txt");
 
 	// Get line count
