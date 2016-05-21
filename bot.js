@@ -33,7 +33,15 @@ function postMessage() {
 		"Jesus was left-handed",
 		"If you stand on the north pole or the south pole, you will be time traveling.",
 		"KFC opened 8 months before buffalos were declared an endangered species.",
-		"Tornadoes can't travel downhill."
+		"Tornadoes can't travel downhill.",
+		"I am the Factoid Bot, I tell random facts.",
+		"Birds can land safely on powerlines since their feet are made of rubber.",
+		"All piglets are born with an identical twin.",
+		"Cockroach venom are strong enough to hospitalize a small child, but their teeth cannot pierce through human skin.",
+		"The Sun's core is composed of frozen hydrogen.",
+		"All iPads made after the second generation can be used as a scale.",
+		"A frog cannot jump backwards.",
+		"It is not uncommon for herd of hippos to mistakenly contain a baby rhino. As the rhino grows up, it is expelled from the herd.",
 	];
 
 	var num = factoids.length - 1;
@@ -73,43 +81,5 @@ function postMessage() {
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-
-/*function getFactoid() {
-
-	var response = "test string"; // string to hold.
-	var in_file = new File("factoids.txt");
-
-	// Get line count
-	var count = 0;
-	in_file.open("r");
-	while(!in_file.eof) {
-		in_file.readln();
-		count++;
-	}
-	in_file.close();
-
-	// Get a random line number:
-	var d = new Date();
-	var n = d.getTime();
-	var seed = n % count;
-
-	// Gets a random string from text file:
-	in_file.open("r");
-	var temp = 0;
-	while(!in_file.eof){
-		
-		if(temp==count){
-			response = in_file.readln();
-		} else{
-			in_file.readln();
-		}
-
-		temp++;
-	}
-
-	in_file.close;
-	return response;
-
-}*/
 
 exports.respond = respond;
