@@ -32,7 +32,7 @@ function postMessage() {
 		"Bees and zebras both have stripes because they share a common ancestor.",
 		"Jesus was left-handed",
 		"If you stand on the north pole or the south pole, you will be time traveling.",
-		"KFC opened 8 months before buffalos were declared an endangered species.",
+		"KFC opened 8 months before buffalos were declared an endangered species." ,
 		"Tornadoes can't travel downhill."
 	];
 
