@@ -26,7 +26,7 @@ function postMessage() {
 		"Factoids are random facts.",
 		"Police sirens are red and blue so that they don't have an affiliation with the Bloods or the Crips.",
 		"Nowhere on a can of Campbell's Tomato Soup does the word 'soup' appear.",
-		"Pengiuns can fly, but usually don't because their wings will freeze if they do.",
+		"Penguins can fly, but usually don't because their wings will freeze if they do.",
 		"Humans can survive underwater, but not for very long.",
 		"No United States president has had divorced parents.",
 		"Bees and zebras both have stripes because they share a common ancestor.",
