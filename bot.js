@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
 	var request = JSON.parse(this.req.chunks[0]),
-		botRegex = /^\/factoid$/;
+		botRegex = /^\factoid$/;
 
 	if(request.text && botRegex.test(request.text)) {
 	this.res.writeHead(200);
@@ -26,13 +26,13 @@ function postMessage() {
 		"Factoids are random facts.",
 		"Police sirens are red and blue so that they don't have an affiliation with the Bloods or the Crips.",
 		"Nowhere on a can of Campbell's Tomato Soup does the word 'soup' appear.",
-		"Pengiuns can fly, but refuse to do so because their wings will freeze if they do.",
+		"Pengiuns can fly, but usually don't because their wings will freeze if they do.",
 		"Humans can survive underwater, but not for very long.",
 		"No United States president has had divorced parents.",
 		"Bees and zebras both have stripes because they share a common ancestor.",
 		"Jesus was left-handed",
 		"If you stand on the north pole or the south pole, you will be time traveling.",
-		"KFC opened 8 months before buffalos were declared an endangered species." ,
+		"KFC opened 8 months before buffalos were declared an endangered species.",
 		"Tornadoes can't travel downhill."
 	];
 
