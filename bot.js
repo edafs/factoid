@@ -8,7 +8,7 @@ function respond() {
 		botRegex = /^\*factoid$/;*/
 
 	var request = JSON.parse(this.req.chunks[0]);
-	var botRegex = new RegExp("*factoid");
+	var botRegex = /^\*factoid$/;
 
 	if( request.text && botRegex.include(request.text) ) {
 		this.res.writeHead(200);
