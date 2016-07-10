@@ -8,7 +8,7 @@ function respond() {
 		botRegex = /^\*factoid$/;
 
 	//if(request.text && botRegex.test(request.text)) {
-	if(request.text && botRegex.test(request.includes("*factoid") )) {
+	if(request.text && botRegex.test(request.text.includes("*factoid") )) {
 	this.res.writeHead(200);
 	postMessage();
 	this.res.end();
