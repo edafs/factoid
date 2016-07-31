@@ -24,7 +24,6 @@ function postMessage() {
 
 	var factoids = [
 		"Mao Zedong had the largest recorded porn collection in history.",
-		"Factoids are random facts.",
 		"Police sirens are red and blue so that they don't have an affiliation with the Bloods or the Crips.",
 		"Nowhere on a can of Campbell's Tomato Soup does the word 'soup' appear.",
 		"Penguins can fly, but usually don't because their wings will freeze if they do.",
@@ -35,7 +34,7 @@ function postMessage() {
 		"If you stand on the north pole or the south pole, you will be time traveling.",
 		"KFC opened 8 months before buffalos were declared an endangered species.",
 		"Tornadoes can't travel downhill.",
-		"I am the Factoid Bot, I tell random facts.",
+		"I am the Factoid Bot, I tell random factoids. Factoids are random facts.",
 		"Birds can land safely on powerlines since their feet are made of rubber.",
 		"All piglets are born with an identical twin.",
 		"Cockroach venom are strong enough to hospitalize a small child, but their teeth cannot pierce through human skin.",
