@@ -46,7 +46,7 @@ function postMessage() {
 		"Anne Frank and Martin Luther King Jr. were born in the same year.",
 		"Kangaroos can store water in its pouch for later consumption.",
 		"Knots on a tree are tumors.",
-		"In 1974, Professor Francis A. Boyle of the University of Illinois wrote a critically acclaimed work study on how coconuts because they consist of hair and produce milk. This was refuted 11 months later.",
+		"In 1974, Professor Francis A. Boyle of the University of Illinois wrote a critically acclaimed work study on how coconuts are mammals because they consist of hair and produce milk. This was refuted 11 months later.",
 		"No matter how fast you go, automatic doors will open in time.",
 		"If you soak a raisin for long enough, it will eventually turn back into a grape.",
 		"Antelopes can jump higher than houses. Houses can't jump.",
