@@ -23,6 +23,9 @@ function postMessage() {
 	var botResponse, options, body, botReq;
 
 	var factoids = [
+		"The 'M' on Mario's hat stands for Mario.",
+		"Mahatma Gandhi was born on October 2, 1869, which, coincidentally, is his birthday.",
+		"Lava Lamps don't actually contain lava in them.",
 		"Mao Zedong had the largest recorded porn collection in history.",
 		"Police sirens are red and blue so that they don't have an affiliation with the Bloods or the Crips.",
 		"Nowhere on a can of Campbell's Tomato Soup does the word 'soup' appear.",
@@ -37,25 +40,20 @@ function postMessage() {
 		"I am the Factoid Bot, I tell random factoids. Factoids are random facts.",
 		"Birds can land safely on powerlines since their feet are made of rubber.",
 		"All piglets are born with an identical twin.",
-		"Cockroach venom are strong enough to hospitalize a small child, but their teeth cannot pierce through human skin.",
 		"The Sun's core is composed of frozen hydrogen.",
 		"All iPads made after the second generation can be used as a scale.",
 		"A frog cannot jump backwards.",
-		"It is not uncommon for herd of hippos to mistakenly contain a baby rhino. As the rhino grows up, it is expelled from the herd.",
 		"Mammoths were alive when the Great Pyramids were being built.",
 		"Anne Frank and Martin Luther King Jr. were born in the same year.",
 		"Kangaroos can store water in its pouch for later consumption.",
 		"Knots on a tree are tumors.",
 		"In 1974, Professor Francis A. Boyle of the University of Illinois wrote a critically acclaimed work study on how coconuts are mammals because they consist of hair and produce milk. This was refuted 11 months later.",
-		"No matter how fast you go, automatic doors will open in time.",
 		"If you soak a raisin for long enough, it will eventually turn back into a grape.",
 		"Antelopes can jump higher than houses. Houses can't jump.",
-		"Goats can lay eggs.",
 		"Elephants can easily hide in trees.",
 		"Charlie Chaplin once entered a Charlie Chapin look-alike contest and lost.",
 		"Terminal velocity for a cat is non-lethal.",
 		"Pirates wore eye-patches so that when removed, they would be able to see better in the bottom deck of a ship.",
-		"An octopus has 3 hearts.",
 		"Crocodiles are more closely related to birds than they are to lizards.",
 		"An avocado is a berry, a strawberry is not."
 	];
